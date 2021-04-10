@@ -170,7 +170,11 @@ _Optional, AST1109MLTRQ buzzer is not included in the kit_
 
 Buzzers are located at the front of the PCBs, only solder buzzer on the master half (Left half by default).
 
-_QMK does not support speaker on the on salve half. Audio is not enabled by default. Buzzer is wired to IO pin B6._
+- _QMK does not support speaker on the on salve half. Audio is not enabled by default._
+
+- _Audio feature takes large amount memory, you may have to disable some features to allow space for it._
+
+- _Buzzer is wired to IO pin B6._
 
 <a href="images/12_Buzzer_B.jpg">
 <img src="images/12_Buzzer_B.jpg" width="400">
