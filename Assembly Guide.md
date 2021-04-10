@@ -290,7 +290,7 @@ Connect both halves with TRRS cable **_first_**, and then connect USB cable to t
 
 **DO NOT PLUG/UNPLUG TRRS CABLE WHEN POWER IS ON (I.E. WHEN USB CABLE IS CONNECTED), IT WILL SHORT THE CONTROLLER AND MAY KILLS IT.**
 
-Check all switches and encoders are working before proceeding to next step.
+Check all switches and encoder are working before proceeding to next step.
 
 ### **Troubleshoot**
 
@@ -299,6 +299,98 @@ Check all switches and encoders are working before proceeding to next step.
 - Make sure there is a diode, it may have got knocked off during handling.
 
 **Switches**
-- Pull the switch out and check for bent pins, straighten the pins with pliers if necessary.
+- Dismount switch and check for bent pins, straighten the pins with pliers if necessary.
 - Check hot swap socket solder joints.
-- Make sure there is a diode near the switch, it may have got knocked off during handling.
+- Check a diode on near the switch, it may have got knocked off during handling.
+
+---
+
+## **Soldering OLED screen PCB**
+
+<a href="images/15_OLED_PCB.jpg">
+<img src="images/15_OLED_PCB.jpg" width="400">
+</a>
+
+Note the front and back of the PCB
+
+<a href="images/16_OLED_Conn_A.jpg">
+<img src="images/16_OLED_Conn_A.jpg" width="400">
+</a>
+<a href="images/16_OLED_Conn_B.jpg">
+<img src="images/16_OLED_Conn_B.jpg" width="400">
+</a>
+
+Insert 4 pins connector to the back of the PCB. Align it with the marking, and then solder at the front side.
+
+**Be sure to solder correctly in this step, there will no access to the solder joints once the OLED screen is soldered on in the next step.**
+
+<a href="images/OLEDScreen_A.jpg">
+<img src="images/OLEDScreen_A.jpg" width="400">
+</a>
+<a href="images/OLEDScreen_B.jpg">
+<img src="images/OLEDScreen_B.jpg" width="400">
+</a>
+
+Insert OLED screen headers to the front side for the PCB, solder at the back of the PCB.
+
+<a href="images/17_OLED_Trim_A.jpg">
+<img src="images/17_OLED_Trim_A.jpg" width="400">
+</a>
+<a href="images/17_OLED_Trim_B.jpg">
+<img src="images/17_OLED_Trim_B.jpg" width="400">
+</a>
+<a href="images/17_OLED_Trim_C.jpg">
+<img src="images/17_OLED_Trim_C.jpg" width="400">
+</a>
+
+Trim headers pins short on both side, be sure the pins on the front are not protrude higher than the screen.
+
+<a href="images/18_OLED_Install_A.jpg">
+<img src="images/18_OLED_Install_A.jpg" width="400">
+</a>
+<a href="images/18_OLED_Install_B.jpg">
+<img src="images/18_OLED_Install_B.jpg" width="400">
+</a>
+
+Attached the OLED screen to the left case with 2 M3 5mm screws.
+
+## **Mount PCB assembly to case**
+
+<a href="images/Asm_mount_R.jpg">
+<img src="images/Asm_mount_R.jpg" width="400">
+</a>
+<a href="images/Asm_mount_L.jpg">
+<img src="images/Asm_mount_L.jpg" width="400">
+</a>
+
+There’re 5 mounting points on the left side and 6 mounting points on the right side.
+Secure it with M3 5mm screws. It will be resistance at first as the square nuts insets underneath are not yet aligned, it’ll become smooth after that.
+
+## **Connecting OLED screen**
+
+<a href="images/ConnectOLED.jpg">
+<img src="images/ConnectOLED.jpg" width="400">
+</a>
+
+Connect OLED screen with the 4 pins cable.
+
+
+## **Case Assembly**
+
+<a href="images/Case_asm_A.jpg">
+<img src="images/Case_asm_A.jpg" width="400">
+</a>
+<a href="images/Case_asm_B.jpg">
+<img src="images/Case_asm_B.jpg" width="400">
+</a>
+
+Place side panel and cover to the case, fasten it with M3 14mm screws. Stick the rubber feet on and it’s done!
+
+
+---
+
+<a href="images/Done.jpg">
+<img src="images/Done.jpg" width="600">
+</a>
+
+---
