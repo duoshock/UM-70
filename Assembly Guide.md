@@ -106,7 +106,7 @@ To solder in-switch LED, LED lens should be facing down, align the markings on t
 <img src="images/07_Layout_Right.jpg" width="400">
 </a>
 
-When solder LEDs for spacekey on the left, and Backspace on the right, solder the to one layout only.
+When come to soldering LEDs for spacekey on the left and Backspace on the right, solder one layout only.
 
 ## **Hot swap sockets**
 <a href="images/08_Hotswap_A.jpg">
@@ -120,7 +120,7 @@ Place sockets like it shown in the photo. When soldering sockets for Spacekey an
 <img src="images/09_RightHowswap_A.jpg" width="400">
 </a>
 
-There’re 4 sockets on the edge of the right half need modifications on the hot swap sockets.
+There’re 4 sockets on the edge of the right half that needs modifications on the hot swap sockets.
 
 <a href="images/09_RightHowswap_B.jpg">
 <img src="images/09_RightHowswap_B.jpg" width="400">
@@ -140,7 +140,7 @@ Spread the right pin of the socket like it shown the photo and then solder.
 <img src="images/10_TRRS_B.jpg" width="400">
 </a>
 
-Place the jack on the back of the PCB, then solder at the front.
+Place the jack on the back of the PCB and then solder.
 
 ## **OLED Screen Connector**
 <a href="images/11_OLEDSocket_A.jpg">
@@ -156,7 +156,7 @@ OLED screen connector is located on the left half.
 <img src="images/11_OLEDSocket_C.jpg" width="400">
 </a>
 
-Insert it on the back of the PCB, then solder at the front.
+Insert it on the back of the PCB and then solder.
 
 ## **Buzzer**
 _Optional, AST1109MLTRQ buzzer is not included in the kit_
@@ -241,13 +241,13 @@ Insert encoder to the front of the PCB, solder it at the back.
 ## **Stabilisers**
 
 <a href="images/Stab_A.jpg">
-<img src="images/Stab_A.jpg" width="400">
+<img src="images/Stab_A.jpg" width="350">
 </a>
 <a href="images/Stab_B.jpg">
-<img src="images/Stab_B.jpg" width="400">
+<img src="images/Stab_B.jpg" width="350">
 </a>
 <a href="images/Stab_C.jpg">
-<img src="images/Stab_C.jpg" width="400">
+<img src="images/Stab_C.jpg" width="350">
 </a>
 
 When installing screw-in stabilizer for Spacekey on the left half, use washer/electrical tape to isolate the screw and the LED contacts to prevent shorting.
@@ -270,7 +270,7 @@ There are 4 mounting points on each half.
 <img src="images/StandOff_B.jpg" width="400">
 </a>
 
-Secure the standoffs to the plate with the washers and M2 screws.
+Secure the standoffs to the plate with washers and M2 screws.
 
 <a href="images/Switch_B.jpg">
 <img src="images/Switch_B.jpg" width="400">
@@ -305,7 +305,7 @@ Check all switches and encoder are working before proceeding to next step.
 - Make sure there is a diode, it may have got knocked off during handling.
 
 **Switches**
-- Dismount switch and check for bent pins, straighten the pins with pliers if necessary.
+- Dismount the switch and check for bent pins, straighten the pins with pliers if necessary.
 - Check hot swap socket solder joints.
 - Check for diode on near the switch, it may have got knocked off during handling.
 
@@ -326,9 +326,9 @@ Note the front and back of the PCB
 <img src="images/16_OLED_Conn_B.jpg" width="400">
 </a>
 
-Insert 4 pins connector to the back of the PCB. Align it with the marking, and then solder at the front side.
+Insert 4 pins connector to the back of the PCB. Align it with the marking and then solder.
 
-**Be sure to solder correctly in this step, there will no access to the solder joints once the OLED screen is in place.**
+### **Be sure to solder correctly in this step, it will no access to the solder joints once the OLED screen is in place.**
 
 <a href="images/OLEDScreen_A.jpg">
 <img src="images/OLEDScreen_A.jpg" width="400">
