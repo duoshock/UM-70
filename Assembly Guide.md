@@ -46,13 +46,17 @@
 
 **10 x Rubber feet** (Only 8 are required, rest are spare)
 
-## **Test the main PCBs before soldering**
+
+---
+
+
+## **Test the PCBs before soldering**
 
 <a href="images/01_Test.jpg">
 <img src="images/01_Test.jpg" width="400">
 </a>
 
-All PCBs are tested prior shipping, but it’s a good practice to make sure it’s working before soldering. It should be recognised as keyboard when plugged, test it by shorting switch pins with tweezers. Don’t panic if the right side PCB outputted wrong keys, as the firmware is set to left as master. I.e. USB cable should be connected to left half when in use.
+All PCBs are tested prior shipping, but it’s a good practice to make sure it’s working before soldering. It should be recognised as keyboard when it's connected, test it by shorting switch pins with tweezers. Don’t panic if the right side PCB outputted wrong keys, as the firmware is set to left as master.
 
 
 
@@ -154,8 +158,6 @@ The connector is located on the left half
 
 Insert it on the back of the PCB, then solder at the front.
 
----
-
 ## **Buzzer**
 _Optional, AST1109MLTRQ buzzer is not included in the kit_
 
@@ -180,10 +182,123 @@ _QMK does not support speaker on the on salve half. Audio is not enabled by defa
 AST1109MLRQ is non-polarity, solder anyway up.
 
 
+---
 ## **Test the PCBs**
 
-Connect both halves with TRRS cable first, and then connect USB cable to the left half.
+
+Connect both halves with TRRS cable **_first_**, and then connect USB cable to the **_left_** **_half_**.
 
 **DO NOT PLUG/UNPLUG TRRS CABLE WHEN POWER IS ON (I.E. WHEN USB CABLE IS CONNECTED), IT WILL SHORT THE CONTROLLER AND MAY KILLS IT.**
 
 Check all LEDs are working before proceeding to next step.
+
+
+### **Troubleshoot**
+
+<a href="images/14_LEDOrder_L.jpg">
+<img src="images/14_LEDOrder_L.jpg" width="400">
+</a>
+<a href="images/14_LEDOrder_R.jpg">
+<img src="images/14_LEDOrder_R.jpg" width="400">
+</a>
+
+The LEDs are wired in serial, see photos for the order.
+
+If some of the LEDs not lit up or appeared to be faulty, it’s most likely something’s wrong with the one closest to the working one.
+For example, if LED 24-39 doesn’t light up, check LED 24.
+- Check solder joints
+
+- Make sure there is a capacitor, it may have got knocked off during handling
+
+- It’s not unusual to counter faulty RGB LED, replace it.
+
+Once it’s tested, move on to next step
+
+---
+
+## **Encoder**
+<a href="images/13_Encoder_A.jpg">
+<img src="images/13_Encoder_A.jpg" width="400">
+</a>
+
+Encoder it located on the right half.
+
+<a href="images/13_Encoder_B.jpg">
+<img src="images/13_Encoder_B.jpg" width="400">
+</a>
+<a href="images/13_Encoder_C.jpg">
+<img src="images/13_Encoder_C.jpg" width="400">
+</a>
+
+Insert encoder to the front of the PCB, solder it at the back.
+
+## **Stabilisers**
+
+<a href="images/Stab_A.jpg">
+<img src="images/Stab_A.jpg" width="400">
+</a>
+<a href="images/Stab_B.jpg">
+<img src="images/Stab_B.jpg" width="400">
+</a>
+<a href="images/Stab_C.jpg">
+<img src="images/Stab_C.jpg" width="400">
+</a>
+
+When installing screw-in stabilizer for Spacekey on the left half, use washer/electrical tape to isolate the screw and the LED solder pads to prevent shorting.
+
+## **Mounting PCB to plate**
+
+<a href="images/PlateMountL.jpg">
+<img src="images/PlateMountL.jpg" width="400">
+</a>
+<a href="images/PlateMountR.jpg">
+<img src="images/PlateMountR.jpg" width="400">
+</a>
+
+There are 4 mounting points on each half.
+
+<a href="images/StandOff_A.jpg">
+<img src="images/StandOff_A.jpg" width="400">
+</a>
+<a href="images/StandOff_B.jpg">
+<img src="images/StandOff_B.jpg" width="400">
+</a>
+
+Secure the standoffs to the plate with the washers and M2 screws.
+
+<a href="images/Switch_B.jpg">
+<img src="images/Switch_B.jpg" width="400">
+</a>
+
+Insert switches to plate and PCB. Switches should be seat flush on the PCB. 
+
+<a href="images/PCB Mountholes_L.jpg">
+<img src="images/PCB Mountholes_L.jpg" width="400">
+</a>
+<a href="images/PCB Mountholes_R.jpg">
+<img src="images/PCB Mountholes_R.jpg" width="400">
+</a>
+
+Then secure PCB to plate with M2 screws. 
+
+
+---
+## **Test the PCBs**
+
+
+Connect both halves with TRRS cable **_first_**, and then connect USB cable to the **_left_** **_half_**.
+
+**DO NOT PLUG/UNPLUG TRRS CABLE WHEN POWER IS ON (I.E. WHEN USB CABLE IS CONNECTED), IT WILL SHORT THE CONTROLLER AND MAY KILLS IT.**
+
+Check all switches and encoders are working before proceeding to next step.
+
+### **Troubleshoot**
+
+**Encoder**
+- Check solder joints.
+- Make sure there is a diode, it may have got knocked off during handling.
+
+**Switches**
+- Pull the switch out and check for bent pins, straighten the pins with pliers if necessary.
+- Check hot swap socket solder joints.
+- Make sure there is a diode near the switch, it may have got knocked off during handling.
