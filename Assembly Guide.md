@@ -62,17 +62,17 @@ All PCBs are tested prior shipping, but it’s a good practice to make sure it�
 <img src="images/02_LEDs.jpg" width="500">
 </a>
 
-_Blue = In-switch LEDs_
+**_Blue = In-switch LEDs_**
 
-_Orange = Panel LEDs_
+**_Orange = Panel LEDs_**
 
 There’re 33 in-switch and 6 for panel LEDs on the left half. 37 in-switch (38 for split backspace) and 6 panel LEDs on the right side.
 
 
 ## **Panel LEDs**
 
-<a href="images/03_ PanelLEDLens.jpg">
-<img src="images/03_ PanelLEDLens.jpg" width="500">
+<a href="images/03_PanelLEDLens.jpg">
+<img src="images/03_PanelLEDLens.jpg" width="500">
 </a>
 
 <a href="images/04_PenalLEDMarking.jpg">
@@ -80,3 +80,27 @@ There’re 33 in-switch and 6 for panel LEDs on the left half. 37 in-switch (38 
 </a>
 
 To solder side panel LED, LED lens should be faced up. Align the marking on the PCB and the LED, repeat the same process to the rest.
+
+## **In-switch LEDs**
+
+<a href="images/06_SwitchLEDMarking_A.jpg">
+<img src="images/06_SwitchLEDMarking_A.jpg" width="500">
+</a>
+
+<a href="images/06_SwitchLED_B.jpg">
+<img src="images/06_SwitchLED_B.jpg" width="500">
+</a>
+
+To solder in-switch LED, LED lens should be facing down, align the markings on the PCB and the LED.
+
+
+<a href="images/07_Layout_Left.jpg">
+<img src="images/07_Layout_Left.jpg" width="500">
+</a>
+
+<a href="images/07_Layout_Right.jpg">
+<img src="images/07_Layout_Right.jpg" width="500">
+</a>
+
+When solder LEDs for spacekey on the left, and Backspace on the right, only solder the to one layout.
+
