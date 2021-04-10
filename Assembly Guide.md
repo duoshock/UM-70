@@ -194,7 +194,7 @@ AST1109MLRQ is non-polarity, solder anyway up.
 
 Connect both halves with TRRS cable **_first_**, and then connect USB cable to the **_left_** **_half_**.
 
-**DO NOT PLUG/UNPLUG TRRS CABLE WHEN POWER IS ON (I.E. WHEN USB CABLE IS CONNECTED), IT WILL SHORT THE CONTROLLER AND MAY KILLS IT.**
+**DO NOT PLUG/UNPLUG TRRS CABLE WHEN POWER IS ON (I.E. WHEN USB CABLE IS CONNECTED), IT WILL SHORT THE CONTROLLER.**
 
 Check all LEDs are working before proceeding to next step.
 
@@ -250,7 +250,7 @@ Insert encoder to the front of the PCB, solder it at the back.
 <img src="images/Stab_C.jpg" width="400">
 </a>
 
-When installing screw-in stabilizer for Spacekey on the left half, use washer/electrical tape to isolate the screw and the LED solder pads to prevent shorting.
+When installing screw-in stabilizer for Spacekey on the left half, use washer/electrical tape to isolate the screw and the LED contacts to prevent shorting.
 
 ## **Mounting PCB to plate**
 
@@ -276,7 +276,7 @@ Secure the standoffs to the plate with the washers and M2 screws.
 <img src="images/Switch_B.jpg" width="400">
 </a>
 
-Insert switches to plate and PCB. Switches should be seat flush on the PCB. 
+Insert switches to plate and PCB. Switches should be seating flush on the PCB. 
 
 <a href="images/PCB Mountholes_L.jpg">
 <img src="images/PCB Mountholes_L.jpg" width="400">
@@ -285,7 +285,7 @@ Insert switches to plate and PCB. Switches should be seat flush on the PCB.
 <img src="images/PCB Mountholes_R.jpg" width="400">
 </a>
 
-Then secure PCB to plate with M2 screws. 
+Secure PCB to plate with M2 screws. 
 
 
 ---
@@ -294,7 +294,7 @@ Then secure PCB to plate with M2 screws.
 
 Connect both halves with TRRS cable **_first_**, and then connect USB cable to the **_left_** **_half_**.
 
-**DO NOT PLUG/UNPLUG TRRS CABLE WHEN POWER IS ON (I.E. WHEN USB CABLE IS CONNECTED), IT WILL SHORT THE CONTROLLER AND MAY KILLS IT.**
+**DO NOT PLUG/UNPLUG TRRS CABLE WHEN POWER IS ON (I.E. WHEN USB CABLE IS CONNECTED), IT WILL SHORT THE CONTROLLER.**
 
 Check all switches and encoder are working before proceeding to next step.
 
@@ -307,7 +307,7 @@ Check all switches and encoder are working before proceeding to next step.
 **Switches**
 - Dismount switch and check for bent pins, straighten the pins with pliers if necessary.
 - Check hot swap socket solder joints.
-- Check a diode on near the switch, it may have got knocked off during handling.
+- Check for diode on near the switch, it may have got knocked off during handling.
 
 ---
 
@@ -328,7 +328,7 @@ Note the front and back of the PCB
 
 Insert 4 pins connector to the back of the PCB. Align it with the marking, and then solder at the front side.
 
-**Be sure to solder correctly in this step, there will no access to the solder joints once the OLED screen is soldered on in the next step.**
+**Be sure to solder correctly in this step, there will no access to the solder joints once the OLED screen is in place.**
 
 <a href="images/OLEDScreen_A.jpg">
 <img src="images/OLEDScreen_A.jpg" width="400">
@@ -349,7 +349,7 @@ Insert OLED screen headers to the front side for the PCB, solder at the back of 
 <img src="images/17_OLED_Trim_C.jpg" width="400">
 </a>
 
-Trim headers pins short on both side, be sure the pins on the front are not protrude higher than the screen.
+Trim header pins short on both side, be sure the pins on the front are not protruding higher than the screen.
 
 <a href="images/18_OLED_Install_A.jpg">
 <img src="images/18_OLED_Install_A.jpg" width="400">
@@ -370,7 +370,7 @@ Attached the OLED screen to the left case with 2 M3 5mm screws.
 </a>
 
 There’re 5 mounting points on the left side and 6 mounting points on the right side.
-Secure it with M3 5mm screws. It will be resistance at first as the square nuts insets underneath are not yet aligned, it’ll become smooth after that.
+Secure it with M3 5mm screws. There will be resistance at first, as the square nuts insets underneath are not yet aligned, it’ll become smooth after that.
 
 ## **Connecting OLED screen**
 
