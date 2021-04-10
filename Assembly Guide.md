@@ -42,7 +42,7 @@
 
 **10 x M3 14mm screws** (Only 8 are required, rest are spare)
 
-**4 x M3 DIN562 Square Nuts** (It’s used as thread insert under the mounting points, all square nuts are already inserted to the case before shipping, but it may come loss during shipping or may have missed. In that case here are the spare)
+**4 x M3 DIN562 Square Nuts** (It’s used as thread insert under the mounting points, all square nuts are already inserted to the case before shipping, but it may come loss during shipping. Here are the spare.)
 
 **10 x Rubber feet** (Only 8 are required, rest are spare)
 
@@ -83,7 +83,7 @@ There’re 33 in-switch and 6 for panel LEDs on the left half. 37 in-switch (38 
 <img src="images/04_PenalLEDMarking.jpg" width="400">
 </a>
 
-To solder side panel LED, LED lens should be faced up. Align the marking on the PCB and the LED, repeat the same process to the rest.
+To solder side panel LED, LED lens should be facing up. Align the marking on the PCB and the LED, repeat the same process to the rest.
 
 ## **In-switch LEDs**
 
@@ -106,7 +106,7 @@ To solder in-switch LED, LED lens should be facing down, align the markings on t
 <img src="images/07_Layout_Right.jpg" width="400">
 </a>
 
-When solder LEDs for spacekey on the left, and Backspace on the right, only solder the to one layout.
+When solder LEDs for spacekey on the left, and Backspace on the right, solder the to one layout only.
 
 ## **Hot swap sockets**
 <a href="images/08_Hotswap_A.jpg">
@@ -129,7 +129,7 @@ There’re 4 sockets on the edge of the right half need modifications on the hot
 <img src="images/09_RightHowswap_C.jpg" width="400">
 </a>
 
-Speare the right pin of the socket like it shown the photo and then solder.
+Spread the right pin of the socket like it shown the photo and then solder.
 
 
 ## **TRSS Jacks**
@@ -147,7 +147,7 @@ Place the jack on the back of the PCB, then solder at the front.
 <img src="images/11_OLEDSocket_A.jpg" width="400">
 </a>
 
-The connector is located on the left half
+OLED screen connector is located on the left half.
 
 <a href="images/11_OLEDSocket_B.jpg">
 <img src="images/11_OLEDSocket_B.jpg" width="400">
@@ -170,7 +170,9 @@ _Optional, AST1109MLTRQ buzzer is not included in the kit_
 
 Buzzers are located at the front of the PCBs, only solder buzzer on the master half (Left half by default).
 
-- _QMK does not support speaker on the on salve half. Audio is not enabled by default._
+- _Audio is not enabled by default._
+
+- _QMK does not support speaker on the on salve half._
 
 - _Audio feature takes large amount memory, you may have to disable some features to allow space for it._
 
