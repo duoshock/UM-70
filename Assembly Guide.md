@@ -1,10 +1,10 @@
 # UM-70 Assembly Guide
 
+## **Content of UM-70 Kit**
+
 <a href="images/00_WhatsInTheBox.jpg">
 <img src="images/00_WhatsInTheBox.jpg" width="500">
 </a>
-
-You should have the following.
 
 **Housing** 
 - 2 x Top Case
@@ -54,3 +54,29 @@ You should have the following.
 
 All PCBs are tested prior shipping, but it’s a good practice to make sure it’s working before soldering. It should be recognised as keyboard when plugged, test it by shorting switch pins with tweezers. Don’t panic if the right side PCB outputted wrong keys, as the firmware is set to left as master. I.e. USB cable should be connected to left halve when in use.
 
+
+
+## **Assembling the Main PCBs**
+
+<a href="images/02_LEDs.jpg">
+<img src="images/02_LEDs.jpg" width="500">
+</a>
+
+_Blue = In-switch LEDs_
+
+_Orange = Panel LEDs_
+
+There’re 33 in-switch and 6 for panel LEDs on the left half. 37 in-switch (38 for split backspace) and 6 panel LEDs on the right side.
+
+
+## **Panel LEDs**
+
+<a href="images/03_ PanelLEDLens.jpg">
+<img src="images/03_ PanelLEDLens.jpg" width="500">
+</a>
+
+<a href="images/04_PenalLEDMarking.jpg">
+<img src="images/04_PenalLEDMarking.jpg" width="500">
+</a>
+
+To solder side panel LED, LED lens should be faced up. Align the marking on the PCB and the LED, repeat the same process to the rest.
