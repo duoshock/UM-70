@@ -174,7 +174,7 @@ Buzzers are located at the front of the PCBs, only solder buzzer on the master h
 
 - _QMK does not support speaker on the on salve half._
 
-- _Audio feature takes large amount memory, you may have to disable some features to allow space for it._
+- _Audio feature takes large amount of memory, some other features may have to be disabled to allow space for it._
 
 - _Buzzer is wired to IO pin B6._
 
