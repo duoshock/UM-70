@@ -251,7 +251,7 @@ Insert encoder to the front of the PCB, solder it at the back.
 <img src="images/Stab_C.jpg" width="400">
 </a>
 
-When installing screw-in stabilizer for Spacekey on the left half, use washer/electrical tape to isolate the screw and the LED contacts to prevent shorting.
+When installing screw-in stabiliser for Spacekey on the left half, use washer/electrical tape to isolate the screw and the LED contacts to prevent shorting.
 
 ## **Mounting PCB to plate**
 
