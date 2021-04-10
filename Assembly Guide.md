@@ -70,7 +70,7 @@ All PCBs are tested prior shipping, but it’s a good practice to make sure it�
 
 **_Orange = Panel LEDs_**
 
-There’re 33 in-switch and 6 for panel LEDs on the left half. 37 in-switch (38 for split backspace) and 6 panel LEDs on the right side.
+There’re 33 in-switch and 6 panel LEDs on the left half. 37 in-switch (38 for split backspace) and 6 panel LEDs on the right side.
 
 
 ## **Panel LEDs**
