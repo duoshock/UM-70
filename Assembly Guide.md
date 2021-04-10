@@ -241,13 +241,14 @@ Insert encoder to the front of the PCB, solder it at the back.
 ## **Stabilisers**
 
 <a href="images/Stab_A.jpg">
-<img src="images/Stab_A.jpg" width="350">
+<img src="images/Stab_A.jpg" width="400">
 </a>
+<br>
 <a href="images/Stab_B.jpg">
-<img src="images/Stab_B.jpg" width="350">
+<img src="images/Stab_B.jpg" width="400">
 </a>
 <a href="images/Stab_C.jpg">
-<img src="images/Stab_C.jpg" width="350">
+<img src="images/Stab_C.jpg" width="400">
 </a>
 
 When installing screw-in stabilizer for Spacekey on the left half, use washer/electrical tape to isolate the screw and the LED contacts to prevent shorting.
@@ -345,11 +346,14 @@ Insert OLED screen headers to the front side for the PCB, solder at the back of 
 <a href="images/17_OLED_Trim_B.jpg">
 <img src="images/17_OLED_Trim_B.jpg" width="400">
 </a>
+
+Trim header pins short on both side.
+
 <a href="images/17_OLED_Trim_C.jpg">
 <img src="images/17_OLED_Trim_C.jpg" width="400">
 </a>
 
-Trim header pins short on both side, be sure the pins on the front are not protruding higher than the screen.
+Be sure the pins on the front are not protruding higher than the screen.
 
 <a href="images/18_OLED_Install_A.jpg">
 <img src="images/18_OLED_Install_A.jpg" width="400">
