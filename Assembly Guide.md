@@ -1,5 +1,9 @@
 # UM-70 Assembly Guide
 
+<a href="images/00_WhatsInTheBox.jpg">
+<img src="images/00_WhatsInTheBox.jpg" width="500">
+</a>
+
 You should have the following.
 
 **Housing** 
@@ -44,4 +48,9 @@ You should have the following.
 
 ## **Test the main PCBs before soldering**
 
+<a href="images/01_Test.jpg">
+<img src="images/01_Test.jpg" width="500">
+</a>
+
 All PCBs are tested prior shipping, but it’s a good practice to make sure it’s working before soldering. It should be recognised as keyboard when plugged, test it by shorting switch pins with tweezers. Don’t panic if the right side PCB outputted wrong keys, as the firmware is set to left as master. I.e. USB cable should be connected to left halve when in use.
+
