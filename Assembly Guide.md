@@ -132,7 +132,7 @@ There are 4 sockets on the edge of the right half that need modification on the 
 Spread the right pin of the socket like it is shown the photo and then solder.
 
 
-## **TRSS Jacks**
+## **TRRS Jacks**
 <a href="images/10_TRRS_A.jpg">
 <img src="images/10_TRRS_A.jpg" width="400">
 </a>
