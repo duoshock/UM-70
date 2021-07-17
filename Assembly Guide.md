@@ -32,17 +32,17 @@
 
 **2 x TRRS PJ-320A**
 
-**20 x M2 3mm screws** (Only 16 are required, rest are spare)
+**20 x M2 3mm screws** (Only 18 are required, rest are spare)
 
-**10 x M2 3mm Standoffs** (Only 8 are required, rest are spare)
+**10 x M2 3mm Standoffs** (Only 9 are required, rest are spare)
 
-**10 x M2 washers** (Only 8 are required, rest are spare)
+**10 x M2 washers** (Only 9 are required, rest are spare)
 
 **15 x M3 5mm screws** (Only 13 are required, rest are spare)
 
 **10 x M3 14mm screws** (Only 8 are required, rest are spare)
 
-**4 x M3 DIN562 Square Nuts** (It’s used as thread insert under the mounting points, these are for spare in case of the inserts came loose during shipping.)
+**2 x M3 DIN562 Square Nuts** (It’s used as thread insert under the mounting points, these are for spare in case of the inserts came loose during shipping.)
 
 **10 x Rubber feet** (Only 8 are required, rest are spare)
 
