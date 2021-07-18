@@ -26,7 +26,7 @@
 
 **1 x Encoder**
 
-**90 x SK6812MINI RGB LED** (Only 84 are required, rest are spare)
+**100 x SK6812MINI RGB LED** (Only 84 are required, rest are spare)
 
 **80 x Hot swap sockets** (Only 70/71 are required, rest are spare)
 
