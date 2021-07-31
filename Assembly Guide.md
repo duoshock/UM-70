@@ -255,20 +255,20 @@ When installing screw-in stabiliser for Spacekey on the left half, use a washer/
 
 ## **Mounting PCB to plate**
 
-<a href="images/PlateMountL.jpg">
-<img src="images/PlateMountL.jpg" width="400">
+<a href="images/PlateMountL_v2.jpg">
+<img src="images/PlateMountL_v2.jpg" width="400">
 </a>
-<a href="images/PlateMountR.jpg">
-<img src="images/PlateMountR.jpg" width="400">
+<a href="images/PlateMountR_v2.jpg">
+<img src="images/PlateMountR_v2.jpg" width="400">
 </a>
 
-There are 4 mounting points on each half.
+There are 4 mounting points on the left side and 5 points on the right side.
 
-<a href="images/StandOff_A.jpg">
-<img src="images/StandOff_A.jpg" width="400">
+<a href="images/StandOff_A_v2.jpg">
+<img src="images/StandOff_A_v2.jpg" width="400">
 </a>
-<a href="images/StandOff_B.jpg">
-<img src="images/StandOff_B.jpg" width="400">
+<a href="images/StandOff_B_v2.jpg">
+<img src="images/StandOff_B_v2.jpg" width="400">
 </a>
 
 Secure the standoffs to the plate with washers and M2 screws.
@@ -283,7 +283,7 @@ Insert switches to plate and PCB. Switches should seat flush on the PCB.
 <img src="images/PCB Mountholes_L.jpg" width="400">
 </a>
 <a href="images/PCB Mountholes_R_V2.jpg">
-<img src="images/PCB Mountholes_R.jpg" width="400">
+<img src="images/PCB Mountholes_R_v2.jpg" width="400">
 </a>
 
 Secure PCB to plate with M2 screws. 
