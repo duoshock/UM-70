@@ -282,7 +282,7 @@ Insert switches to plate and PCB. Switches should seat flush on the PCB.
 <a href="images/PCB Mountholes_L.jpg">
 <img src="images/PCB Mountholes_L.jpg" width="400">
 </a>
-<a href="images/PCB Mountholes_R.jpg">
+<a href="images/PCB Mountholes_R_V2.jpg">
 <img src="images/PCB Mountholes_R.jpg" width="400">
 </a>
 
