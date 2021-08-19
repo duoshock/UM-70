@@ -42,7 +42,7 @@
 
 **10 x M3 14mm screws** (Only 8 are required, rest are spare)
 
-**2 x M3 DIN562 Square Nuts** (It’s used as thread insert under the mounting points, these are for spare in case of the inserts came loose during shipping.)
+**2 x M3 DIN562 Square Nuts** (Used as thread inserts under the mounting points. The PCB should have these pre-installed. The two included here are spares in case the pre-installed inserts came loose during shipping.)
 
 **10 x Rubber feet** (Only 8 are required, rest are spare)
 
@@ -56,7 +56,7 @@
 <img src="images/01_Test.jpg" width="400">
 </a>
 
-All PCBs are tested prior shipping, but it’s good practice to make sure it’s working before soldering. It should be recognised as keyboard when it's connected, test it by shorting switch pins with tweezers. Don’t panic if the right side PCB outputted wrong keys, as the firmware is set to left as master.
+All PCBs are tested prior shipping, but it is good practice to make sure they are working before soldering. Both PCBs should be recognised as keyboard input device when connected to a computer. Plug in one half and test by shorting switch pins with tweezers. After testing one half, disconnect the first and test the other half. Don’t panic if the right side PCB outputs the wrong key for that switch location as the firmware is set to left as master. As long as both halves produce some output you have verified the PCBs are working.
 
 
 
@@ -83,7 +83,7 @@ There are 33 in-switch and 6 panel LEDs on the left half. 37 in-switch (38 for s
 <img src="images/04_PenalLEDMarking.jpg" width="400">
 </a>
 
-To solder side panel LEDs, the LED lens should be facing up. Align the marking on the PCB and the LED, repeat the same process to the rest.
+To solder side panel LEDs, the LED lens should be facing up. Align the marking on the PCB and the LED then solder. Repeat the same process for the remaining side panel LEDs.
 
 ## **In-switch LEDs**
 
@@ -95,7 +95,7 @@ To solder side panel LEDs, the LED lens should be facing up. Align the marking o
 <img src="images/06_SwitchLED_B.jpg" width="400">
 </a>
 
-To solder in-switch LEDs, the LED lens should be facing down. Align the markings on the PCB and the LED.
+To solder in-switch LEDs, the LED lens should be facing down. Align the markings on the PCB and the LED then solder. Repeat the same process for the remaining in-switch LEDs.
 
 
 <a href="images/07_Layout_Left.jpg">
@@ -106,21 +106,20 @@ To solder in-switch LEDs, the LED lens should be facing down. Align the markings
 <img src="images/07_Layout_Right.jpg" width="400">
 </a>
 
-When soldering LEDs for spacekey on the left and Backspace on the right, solder one layout only.
+When soldering LEDs for Spacekey on the left and Backspace on the right, pick one of the two layouts shown above. Be sure to only solder one layout.
 
 ## **Hot swap sockets**
 <a href="images/08_Hotswap_A.jpg">
 <img src="images/08_Hotswap_A.jpg" width="400">
 </a>
 
-Place sockets as shown in the photo. When soldering sockets for Spacekey and Backspace, only solder sockets to one layout only. Refer to the previous step for correct placement.
-
+Place sockets as shown in the photo. Note that you should solder from the underside of the PCB half you are working on. When soldering sockets for Spacekey on the left and Backspace on the right, refer to your chosen layout from the previous step for correct placement. Be sure to only solder sockets to one layout.
 
 <a href="images/09_RightHowswap_A.jpg">
 <img src="images/09_RightHowswap_A.jpg" width="400">
 </a>
 
-There are 4 sockets on the edge of the right half that need modification on the hot swap sockets.
+There are 4 sockets on the edge of the right half that need modification prior to soldering.
 
 <a href="images/09_RightHowswap_B.jpg">
 <img src="images/09_RightHowswap_B.jpg" width="400">
@@ -129,7 +128,7 @@ There are 4 sockets on the edge of the right half that need modification on the 
 <img src="images/09_RightHowswap_C.jpg" width="400">
 </a>
 
-Spread the right pin of the socket like it is shown the photo and then solder.
+Spread the right pins of the socket as shown in the photo and then solder.
 
 
 ## **TRRS Jacks**
@@ -140,7 +139,7 @@ Spread the right pin of the socket like it is shown the photo and then solder.
 <img src="images/10_TRRS_B.jpg" width="400">
 </a>
 
-Place the jack on the back of the PCB and then solder.
+Place the jack on the underside of the PCB (the same side you just soldered sockets to) then solder.
 
 ## **OLED Screen Connector**
 <a href="images/11_OLEDSocket_A.jpg">
@@ -156,7 +155,7 @@ OLED screen connector is located on the left half.
 <img src="images/11_OLEDSocket_C.jpg" width="400">
 </a>
 
-Insert it on the back of the PCB and then solder.
+Insert it on the underside of the PCB and then solder.
 
 ## **Buzzer**
 _Optional, AST1109MLTRQ buzzer is not included in the kit_
@@ -168,13 +167,13 @@ _Optional, AST1109MLTRQ buzzer is not included in the kit_
 <img src="images/12_Buzzer_A_R.jpg" width="400">
 </a>
 
-Buzzers are located at the front of the PCBs, only solder a buzzer on the master half (Left half by default. Note that this can be changed. Be sure to solder the buzzer to the half that will be plugged into your PC via USB-C).
+Buzzers are located on the top sides of each PCB. Only solder a buzzer on the master half (Left half by default. Note that this can be changed. Be sure to solder the buzzer to the half that will be plugged into your PC via USB-C).
 
 - _Audio is not enabled by default._
 
 - _QMK does not support speaker on the on slave half._
 
-- _Audio feature takes large amount of memory, some other features may have to be disabled to allow space for it._
+- _Audio features take a large amount of memory, some other features may have to be disabled to allow space for it._
 
 - _Buzzer is wired to IO pin B6._
 
@@ -194,7 +193,7 @@ AST1109MLRQ is non-polarity, solder anyway up.
 
 Connect both halves with TRRS cable **_first_**, and then connect USB cable to the **_left_** **_half_**.
 
-**DO NOT PLUG/UNPLUG TRRS CABLE WHEN POWER IS ON (I.E. WHEN USB CABLE IS CONNECTED), IT WILL SHORT THE CONTROLLER.**
+**DO NOT PLUG/UNPLUG TRRS CABLE WHEN POWER IS ON (I.E. WHEN USB CABLE IS CONNECTED), IT CAN SHORT THE CONTROLLER.**
 
 Check that all LEDs are working before proceeding to the next step.
 
@@ -218,7 +217,7 @@ For example, if LED 24-39 doesn’t light up, check LED 24.
 
 - It’s not unusual to encounter a faulty RGB LED, replace it.
 
-Once it’s tested, move on to the next step
+Once all LEDs are working, move on to the next step
 
 ---
 
@@ -227,7 +226,7 @@ Once it’s tested, move on to the next step
 <img src="images/13_Encoder_A.jpg" width="400">
 </a>
 
-Encoder it located on the right half.
+Encoder is located on the right half.
 
 <a href="images/13_Encoder_B.jpg">
 <img src="images/13_Encoder_B.jpg" width="400">
@@ -297,7 +296,7 @@ Connect both halves with TRRS cable **_first_**, and then connect USB cable to t
 
 **DO NOT PLUG/UNPLUG TRRS CABLE WHEN POWER IS ON (I.E. WHEN USB CABLE IS CONNECTED), IT WILL SHORT THE CONTROLLER.**
 
-Check all switches and encoder are working before proceeding to the next step.
+Confirm that all switches and the encoder are working before proceeding to the next step.
 
 ### **Troubleshooting Encoder/Switches**
 
@@ -327,7 +326,7 @@ Note the front and back of the PCB
 <img src="images/16_OLED_Conn_B.jpg" width="400">
 </a>
 
-Insert the 4 pin connector to the back of the PCB. Align it with the marking on the PCB and then solder.
+Insert the 4 pin connector to the back of the PCB. Align it with the marking on the PCB and then solder each pin from the front.
 
 ### **Be sure to solder correctly in this step, as there will be no access to the solder joints once the OLED screen is in place.**
 
@@ -338,7 +337,7 @@ Insert the 4 pin connector to the back of the PCB. Align it with the marking on 
 <img src="images/OLEDScreen_B.jpg" width="400">
 </a>
 
-Insert OLED screen headers to the front side for the PCB, solder each pin from the underside of the PCB.
+Insert the short pins of the OLED screen header through the back of the OLED PCB then solder from the front. Then place the long pins of the screen header through the black mounting PCB and solder each pin from the underside.
 
 <a href="images/17_OLED_Trim_A.jpg">
 <img src="images/17_OLED_Trim_A.jpg" width="400">
@@ -394,7 +393,7 @@ Connect OLED screen with the 4 pin cable.
 <img src="images/Case_asm_B.jpg" width="400">
 </a>
 
-Place side panel and cover onto the case, fasten them with M3 14mm screws. Stick the rubber feet on and it’s done!
+Place the side panel and cover onto the case, fasten them with M3 14mm screws. Stick the rubber feet on and it’s done!
 
 
 ---
