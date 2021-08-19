@@ -278,11 +278,11 @@ Secure the standoffs to the plate with washers and M2 screws.
 
 Insert switches to plate and PCB. Switches should seat flush on the PCB. 
 
-<a href="images/PCB Mountholes_L.jpg">
-<img src="images/PCB Mountholes_L.jpg" width="400">
+<a href="images/PCBMountholes_L.jpg">
+<img src="images/PCBMountholes_L.jpg" width="400">
 </a>
-<a href="images/PCB Mountholes_R_V2.jpg">
-<img src="images/PCB Mountholes_R_v2.jpg" width="400">
+<a href="images/PCBMountholes_R_V2-2.jpg">
+<img src="images/PCBMountholes_R_v2-2.jpg" width="400">
 </a>
 
 Secure PCB to plate with M2 screws. 
@@ -346,13 +346,16 @@ Insert the short pins of the OLED screen header through the back of the OLED PCB
 <img src="images/17_OLED_Trim_B.jpg" width="400">
 </a>
 
-Trim header pins short on both side.
+Trim header pins short on both side. 
 
 <a href="images/17_OLED_Trim_C.jpg">
 <img src="images/17_OLED_Trim_C.jpg" width="400">
 </a>
+<a href="images/OLED_Tilt.jpg">
+<img src="images/OLED_Tilt.jpg" width="400">
+</a>
 
-Be sure the pins on the front are not protruding higher than the screen.
+Be sure the pins on the front are not protruding higher than the screen. Also, tilt-up the OLED screen slightly. Otherwise, there will be a gap between the case and the screen.
 
 <a href="images/18_OLED_Install_A.jpg">
 <img src="images/18_OLED_Install_A.jpg" width="400">
@@ -362,6 +365,19 @@ Be sure the pins on the front are not protruding higher than the screen.
 </a>
 
 Attached the OLED screen to the left case with 2 M3 5mm screws.
+
+
+> When mounting the OLED screen to the case, there will be resistance at first, as the square nuts insets underneath are not yet aligned, it will become smooth after that.
+>
+> <a href="images/PreScrew_A.jpg">
+> <img src="images/PreScrew_A.jpg" width="400">
+> </a>
+> <a href="images/PreScrew_B.jpg">
+> <img src="images/PreScrew_B.jpg" width="400">
+> </a>
+>
+> You can pre-screw all the mounting points without PCB to align the inserts before assembling.
+> <span style="color:red"> **WHEN DOING THIS, BE SURE NOT TO OVER TIGHTEN, ESPECIALLY ON THE OLED SCREEN MOUNTING POINTS. OTHERWISE, SCREWS CAN PUNCTURE THROUGH TO THE TOP OF THE CASE.**</span>.
 
 ## **Mount PCB assembly to case**
 
@@ -374,6 +390,12 @@ Attached the OLED screen to the left case with 2 M3 5mm screws.
 
 There are 5 mounting points on the left side and 6 mounting points on the right side.
 Secure the PCB with the M3 5mm screws. There will be resistance at first, as the square nuts insets underneath are not yet aligned, it will become smooth after that.
+
+> <a href="images/CaseAssembleEncoder.jpg">
+> <img src="images/CaseAssembleEncoder.jpg" width="400">
+> </a>
+>
+>Before putting the right side PCB into the case, turn the encoder stam flat side face toward the bottom of the case for more clarence.
 
 ## **Connecting OLED screen**
 
