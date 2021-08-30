@@ -56,7 +56,7 @@
 <img src="images/01_Test.jpg" width="400">
 </a>
 
-All PCBs are tested prior shipping, but it is good practice to make sure they are working before soldering. Both PCBs should be recognised as keyboard input device when connected to a computer. Plug in one half and test by shorting switch pins with tweezers. After testing one half, disconnect the first and test the other half. Don’t panic if the right side PCB outputs the wrong key for that switch location as the firmware is set to left as master. As long as both halves produce some output you have verified the PCBs are working.
+All PCBs are tested prior shipping, but it is good practice to make sure they are working before soldering. Both PCBs should be recognised as keyboard input device when connected to a computer. Plug in one half and test by shorting switch pins with tweezers. After testing one half, disconnect the first and test the other half. Don’t panic if the right side PCB outputs the wrong key for that switch location or not registers some of the keys, as the firmware is set to left as master. As long as both halves produce some output you have verified the PCBs are working.
 
 
 
