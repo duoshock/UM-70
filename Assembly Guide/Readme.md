@@ -12,43 +12,46 @@
 - 2 x Side Panel
 - 1 x Rotary Encoder Knob
 
-**RF4 Plate**
-- 1 x Left
-- 1 x Right
+**Electronics**
+- 1 x OLED Screen PCB
+- 1 x OLED Screen
+- 2 x 4 Pins Sockets
+- 1 x 4 Pins Cable
+- 1 x Encoder
+- 100 x SK6812MINI RGB LED** (Only 84 are required)
+- 80 x Hot swap sockets (Only 70/71 are required)
+- 2 x TRRS PJ-320A
 
-**1 x OLED Screen PCB**
+**Fasteners**
+- 20 x M2 3mm screws (Only 18 are required)
+- 10 x M2 3mm Standoffs (Only 9 are required)
+- 10 x M2 washers (Only 9 are required)
+- 15 x M3 5mm screws (Only 13 are required)
+- 10 x M3 14mm screws (Only 8 are required)
 
-**1 x OLED Screen**
-
-**2 x 4 Pins Sockets**
-
-**1 x 4 Pins Cable**
-
-**1 x Encoder**
-
-**100 x SK6812MINI RGB LED** (Only 84 are required, rest are spare)
-
-**80 x Hot swap sockets** (Only 70/71 are required, rest are spare)
-
-**2 x TRRS PJ-320A**
-
-**20 x M2 3mm screws** (Only 18 are required, rest are spare)
-
-**10 x M2 3mm Standoffs** (Only 9 are required, rest are spare)
-
-**10 x M2 washers** (Only 9 are required, rest are spare)
-
-**15 x M3 5mm screws** (Only 13 are required, rest are spare)
-
-**10 x M3 14mm screws** (Only 8 are required, rest are spare)
-
-**2 x M3 DIN562 Square Nuts** (Used as thread inserts under the mounting points. The PCB should have these pre-installed. The two included here are spares in case the pre-installed inserts came loose during shipping.)
-
-**10 x Rubber feet** (Only 8 are required, rest are spare)
-
+**Miscellaneous**
+- 1 x FR4 Plates (Left & Right)
+- 8 x Rubber feet
 
 ---
 
+## **FAQ** ##
+
+- **Why some keys are not registered on the right half when testing the PCB by connecting via USB cable?**
+
+    The Left and right sides have a different key matrix (i.e. different number of keys). The pre-flashed firmware is set as master left, so when testing the right side via USB, the computer registers it as the left side which has less key than the right side.
+
+    So it's normal to have some keys not registered on the right side when it is connected via USB. To perform a proper test, connect the right half via TRRS cable.
+
+
+
+- **Why it disconnect when I plug in the TRRS cable?**
+
+    TRRS cable carries data and power to the other half. When plugging the cable into the TRRS jack, the ring that carries power makes contact with the data pin and short the MCU. In most cases, the MCU will be fine after disconnecting the power, but something it can corrupts the EEPROM. In rare instance, kills the MCU. 
+
+    *SO PLEASE DO NOT PLUG/UNPLUG TRRS CABLE WHEN POWER IS ON (I.E. WHEN USB CABLE IS CONNECTED).*
+
+---
 
 ## **Test the PCBs before soldering**
 
