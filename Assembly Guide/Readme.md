@@ -23,11 +23,12 @@
 - 2 x TRRS PJ-320A
 
 **Fasteners**
-- 20 x M2 3mm screws (Only 18 are required)
-- 10 x M2 3mm Standoffs (Only 9 are required)
-- 10 x M2 washers (Only 9 are required)
-- 15 x M3 5mm screws (Only 13 are required)
-- 10 x M3 14mm screws (Only 8 are required)
+- 20 x M2 3mm screws
+- 10 x M2 3mm Standoffs
+- 10 x M2 washers
+- 20 x M3 5mm screws
+- 5 x M3 16mm screws
+- 5 x M3 25mm screws
 
 **Miscellaneous**
 - 1 x FR4 Plates (Left & Right)
@@ -414,14 +415,28 @@ Connect OLED screen with the 4 pin cable.
 <a href="images/Case_asm_A.jpg">
 <img src="images/Case_asm_A.jpg" width="400">
 </a>
-<a href="images/Case_asm_B.jpg">
-<img src="images/Case_asm_B.jpg" width="400">
+
+
+Place the side panel and cover onto the case.
+### **Default cover**
+
+<a href="images/CoverScrews.jpg">
+<img src="images/CoverScrews.jpg" width="400">
 </a>
 
-Place the side panel and cover onto the case, fasten them with M3 14mm screws. Stick the rubber feet on and it’s done!
+Fasten it with M3x16mm and M3x5mm screws.
 
+ 
+### **With raisers**
+
+<a href="images/RaisersScrews.jpg">
+<img src="images/RaisersScrews.jpg" width="400">
+</a>
+
+Fasten it with M3x16mm and M3x25mm screws.
 
 ---
+## **Done**
 
 <a href="images/Done.jpg">
 <img src="images/Done.jpg" width="600">
